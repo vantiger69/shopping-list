@@ -10,9 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const newItem = document.createElement('li');
         newItem.textContent = addNewItems.value;
-       // const tick = document.createElement('p')
-        //tick.innerHTML = 'p'
-        //newItem.appendChild(tick);
+        const tick = document.createElement('p')
+        tick.innerHTML = 'purchased'
+        newItem.appendChild(tick);
         creatDeleteButton(newItem)
         addNewItemsPurchased.appendChild(newItem);
         event.target.reset();
