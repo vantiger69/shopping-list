@@ -75,3 +75,7 @@ h3{
 #button:hover{
     background-color: lightblue;
 }
+img{
+    height: 20px;
+    width: 20px;
+}
